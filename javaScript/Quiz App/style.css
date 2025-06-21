@@ -1,0 +1,205 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #b5d9f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    height: 90%;
+    width: 30%;
+   background-image: linear-gradient(150deg, #687ff4, #5b3586);
+   border-radius: 7px;
+   border: none;
+   box-shadow:  0px 0px 15px 1px gray;
+}
+.child-1{
+    height: 50%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    text-align: center;
+    align-content: end;
+    
+}
+
+.child-2{
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(232, 127, 255); */
+    text-align: center;
+    /* align-content: center; */
+    color: white;
+    padding-top: 15%;
+}
+.child-1 img{
+    width: 40%;
+    height: auto;
+}
+h1{
+    font-size: 60px;
+    color: white;
+}
+.hr{
+    height: 1.5px;
+    width: 50%;
+    background-color: rgb(78, 11, 154);
+    margin-left: 25%;
+    margin-top: 20px;
+}
+.child-2 p{
+    margin-bottom: 25px;
+  
+}
+.play-btn{
+    height: fit-content;
+    width: 50%;
+    padding: 6px;
+    color: white;
+    background-image: linear-gradient(to right,rgb(113, 158, 255), rgb(0, 42, 255));
+    font-size: larger;
+    border: none;
+    background-color: #687ff4;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 3px 10px 1px rgb(63, 46, 70);
+}
+.play-btn:hover{
+   background: white;
+   color: #687ff4;
+    box-shadow: 0px 0px 15px 5px white;
+    
+}
+
+
+/* /////////////////////////////////////  question page css ///////////////////////////////////// */
+
+.ques-main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(150deg, #687ff4, #5b3586)
+}
+.ques-section{
+    height: 80%;
+    width: 60%;
+    background-color: #ffffff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec-1{
+    height: 20%;
+    width: 100%;
+    /* background-color: green; */
+    align-content: center;
+    font-size: large;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+}
+.sec-2{
+    height: 60%;
+    width: 100%;
+    /* background-color: rgb(227, 166, 129); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec-3{
+    height: 20%;
+    width: 100%;
+    /* background-color: rgb(128, 0, 0); */
+}
+.adjest{
+    height: auto ;
+    width: 100%;
+    padding: 2%;
+    /* background-color: #5b3586; */
+    /* border: 1px solid black; */
+    background-color: #d8ecfa;
+    margin-top: 2px;
+}
+.btn-n{
+    background-color: rgb(0, 26, 128);
+    color: white;
+    width: 60px;
+    height: 30%;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+.btn-b{
+    color: rgb(0, 26, 128);
+     width: 60px;
+    height: 30%;
+    border-radius: 7px;
+    border: 1px solid rgb(0, 26, 128);
+    cursor: pointer;
+}
+.space-adjest{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-s{
+     width: 80px;
+    height: 35%;
+}
+.result-1{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+.result-2{
+    width: 100%;
+    height: 30%;
+    /* background-color: #687ff4; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.result-3{
+    height: 30%;
+    width: 100%;
+    /* background-color: #687ff4; */
+    text-align: center;
+    align-content: center;
+}
+.sub-sec{
+    height: 100%;
+    width: 30%;
+    background-color: #cce6f9;
+    text-align: center;
+    align-content: center;
+}
+.h{
+    font-size: xx-large;
+    font-weight: 600;
+    color: #0025df;
+    margin-bottom: 5px;
+}
+h2{
+    font-size: xx-large;
+}
+.btn-ex{
+    height: 30px;
+    width: 90px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(0, 26, 128);
+    color: white;
+}
+.btn-ex:hover{
+    box-shadow: 0px 0px 15px 5px rgb(0, 26, 128);
+    cursor: pointer;
+}
