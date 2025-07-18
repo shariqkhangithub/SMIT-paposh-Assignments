@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    /* background-color: beige; */
+}
+#table{
+    border: 1px solid;
+}
+th{
+    border: 1px solid;
+    color: rgb(165, 134, 42);
+}
+h1{
+    color: rgb(126, 78, 15);
+    text-decoration: underline;
+}
+tr{
+    border: 1px solid;
+}
