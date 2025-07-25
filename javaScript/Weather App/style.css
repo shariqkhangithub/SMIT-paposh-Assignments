@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #8cf0f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    width: 90%;
+    height: 80%;
+    max-width: 470px;
+    background: #22222295;;
+    color: #fff;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow: 0px 0px 15px 2px  black;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: none;
+    background-color: #ebfffc;
+    padding: 10px 25px;
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #8ab8fd;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+}
+.search button i{
+    width: 13px;
+    font-size: 20px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.hero h1{
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: 500;
+}
+.hero h2{
+    font-size: 35px;
+    font-weight: 400;
+    margin: 10px 0px;
+    
+}
+.weather-text{
+    font-size: 18px;
+}
+.modes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.fara, .cel{
+    font-size: 28px;
+    margin-top: -6px;
+    text-align: center;
+}
+
+
+.min-temp, .max-temp {
+    font-size: 13px;
+    color: #dddddd;
+}
+
+.min-temp {
+    color: #84c1ff; /* bluish tone for min */
+}
+
+.max-temp {
+    color: #ff8c8c; /* reddish tone for max */
+}
+.im{
+    height: 20px ;
+    width: auto;
+}
+
+@media(max-width: 466px){
+    .search input{
+      padding: 5px 15px;
+    height: 40px;  
+    font-size: 16px;     
+    margin-right: 10px;
+    }
+    .search button{
+        height: 40px;
+        width: 40px;
+    }
+    .search button i{
+        width: 10px;
+        font-size: 15px;
+    }
+}
