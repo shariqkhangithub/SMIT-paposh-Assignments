@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fast Food Menu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-neutral-100 text-gray-800">
+    <h1 class="text-4xl font-extrabold text-center my-6 text-red-600">
+      Fast Food Menu
+    </h1>
+
+    <div class="w-full h-[2px] bg-red-300 mb-4"></div>
+
+    <div class="flex flex-wrap justify-between items-center px-6 mb-4">
+      <div class="flex gap-2 flex-wrap items-center" id="filterButtons">
+        
+      </div>
+
+      
+      <div id="sorting">
+        <select
+          id="sortOptions"
+          class="border border-gray-300 rounded px-3 py-1 text-sm font-medium bg-white shadow-sm"
+        >
+          <option value="price-l-h">Price: Low to High</option>
+          <option value="price-h-l">Price: High to Low</option>
+          <option value="rating-h-l">Rating: High to Low</option>
+          <option value="rating-l-h">Rating: Low to High</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="flex flex-col md:flex-row px-6 gap-6">
+     
+      <div class="w-full md:w-1/4 space-y-4">
+        <div class="bg-white p-4 shadow rounded" id="categoryFilter">
+          <h2 class="font-bold text-lg mb-2">Food Type</h2>
+         
+        </div>
+        <div class="bg-white p-4 shadow rounded" id="priceFilter">
+          <h2 class="font-bold text-lg mb-2">Price Range</h2>
+         
+        </div>
+        <div class="bg-white p-4 shadow rounded" id="ratingFilter">
+          <h2 class="font-bold text-lg mb-2">Rating</h2>
+          
+        </div>
+      </div>
+
+     
+      <div class="w-full md:w-3/4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4" id="products">
+       
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
