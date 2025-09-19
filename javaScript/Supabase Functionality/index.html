@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Todo Manager</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      
+      <form id="register-form">
+        <h2>Register</h2>
+        <input type="email" id="reg-email" placeholder="Email" required />
+        <input type="password" id="reg-pass" placeholder="Password" required />
+        <button type="submit">Create Account</button>
+        <p onclick="toggleUI('signin')" class="switch">Already have an account? Login</p>
+      </form>
+
+      
+      <form id="signin-form" style="display:none">
+        <h2>Login</h2>
+        <input type="email" id="log-email" placeholder="Email" required />
+        <input type="password" id="log-pass" placeholder="Password" required />
+        <button type="submit">Sign In</button>
+        <p onclick="toggleUI('register')" class="switch">New user? Register</p>
+      </form>
+
+      
+      <div id="todo-panel" style="display:none">
+        <h1>My Tasks</h1>
+        <button id="signout-btn">Logout</button>
+
+        <form id="task-form">
+          <input type="text" id="task-title" placeholder="Task title" required />
+          <textarea id="task-body" placeholder="Task details" required></textarea>
+          <button type="submit">Add Task</button>
+        </form>
+
+        <ul class="todo-list"></ul>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
