@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c0c0c2;
+  margin: 0;
+  padding: 0;
+}
+
+.todo-container {
+  width: 400px;
+  margin: 60px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.add-section,
+.search-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  padding: 8px 14px;
+  background-color: #4a6cf7;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3d5ee8;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 8px 0;
+}
+
+
+
+.actions button {
+  margin-left: 6px;
+  background-color: #eee;
+  color: #333;
+}
+
+.actions button:hover {
+  background-color: #ddd;
+}body {
+  font-family: Arial, sans-serif;
+  background-color: #c0c0c2;
+  margin: 0;
+  padding: 0;
+}
+
+.todo-container {
+  width: 400px;
+  margin: 60px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.add-section,
+.search-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  padding: 8px 14px;
+  background-color: #4a6cf7;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3d5ee8;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 8px 0;
+}
+
+
+
+.actions button {
+  margin-left: 6px;
+  background-color: #eee;
+  color: #333;
+}
+
+.actions button:hover {
+  background-color: #ddd;
+}
