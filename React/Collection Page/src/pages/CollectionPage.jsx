@@ -8,7 +8,7 @@ import { useState } from "react";
 function CollectionPage() {
   const [selectedCategories, setSelectedCategories] = useState([]);
   const [selectedRating, setSelectedRating] = useState("");
-  const [rangeValue, setRangeValue] = useState("1200");
+  const [rangeValue, setRangeValue] = useState("25");
 
   function onChangeCategoryHandler(category, checked) {
     if (checked) {
@@ -32,11 +32,14 @@ function CollectionPage() {
 
   return (
     <>
-      <h1 className="text-3xl text-center font-bold text-blue-600 m-4">
-        Collection Page
+    <div className="bg-zinc-800">
+      <h1 className="text-4xl text-center font-bold text-orange-500 text-shadow-lg  m-4">
+        Food Collection Page
       </h1>
       <div className="grid grid-cols-12 gap-3">
-        <div className="col-span-2 space-y-2 p-3 bg-neutral-200">
+        <div className="col-span-2 space-y-2 p-3 bg-zinc-800 border-2 border-black {
+          
+        }">
           <CategoryFilter
             selectedCategory={selectedCategories}
             onChangeCategory={onChangeCategoryHandler}
@@ -70,6 +73,7 @@ function CollectionPage() {
             )}
           />
         </div>
+      </div>
       </div>
     </>
   );

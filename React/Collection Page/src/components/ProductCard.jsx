@@ -1,11 +1,11 @@
 function ProductCard({ product }) {
 
   return (
-    <div className="col-span-3">
-      <div className="rounded-xl shadow-xl">
-        <div className="flex flex-col">
+    <div className="col-span-3 ">
+      <div className="rounded-xl shadow-xl ">
+        <div className="flex flex-col ">
           <img src={product.image} alt={product.title} />
-          <div className="relative p-3 space-y-2 h-56 text-black bg-neutral-50">
+          <div className="relative p-3 space-y-2 h-56  text-white bg-black">
             <h1 className="text-[18px] font-bold text-shadow-md">{product.title}</h1>
             <div className="flex items-center gap-2 font-semibold">
               <div className="flex justify-start">
@@ -38,7 +38,7 @@ function ProductCard({ product }) {
               {product.description}
             </p>
             <div className="absolute bottom-2 w-full flex justify-between items-center pr-6">
-              <span className="text-black text-xl font-bold">${product.price}</span>
+              <span className=" text-xl font-bold">${product.price}</span>
               <button className="cursor-pointer transition-all duration-1000 ease-in-out">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

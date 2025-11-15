@@ -5,7 +5,7 @@ function RatingFilter({selectedRating , onChangeRating}) {
 
  
   return (
-    <div className="h-48 p-5 space-y-2 border border-gray-200 shadow-lg rounded-md">
+    <div className="h-48 p-5 space-y-2 border shadow-lg rounded-md bg-black">
       {[5, 4, 3, 2, 1].map((rating) => (
         <div
           key={rating}

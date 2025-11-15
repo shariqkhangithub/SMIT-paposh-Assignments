@@ -1,17 +1,17 @@
 export const categories = [
   {
     id: 1,
-    title: "fast food",
+    title: "Salad",
     image: "",
   },
   {
     id: 2,
-    title: "Desert",
+    title: "Sandwich",
     image: "",
   },
   {
     id: 3,
-    title: "Drinks",
+    title: "Cake",
     image: "",
   },
 ];
